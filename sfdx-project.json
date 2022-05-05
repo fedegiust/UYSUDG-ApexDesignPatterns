@@ -1,0 +1,76 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Holidays_Mvdgroup",
+            "versionName": "Version 1",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/project-scratch-def.json"
+        },
+        {
+            "path": "uruguay",
+            "default": false,
+            "package": "Holidays_Mvdgroup_Uy",
+            "versionName": "Uruguay 1",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "Holidays_Mvdgroup",
+                    "subscriberPackageVersionId": "04t8c0000012e0yAAA"
+                }
+            ]
+        },
+        {
+            "path": "argentina",
+            "default": false,
+            "package": "Holidays_Mvdgroup_Arg",
+            "versionName": "Argentina 1",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "Holidays_Mvdgroup",
+                    "subscriberPackageVersionId": "04t8c0000012e0yAAA"
+                }
+            ]
+        },
+        {
+            "path": "brasil",
+            "default": false,
+            "package": "Holidays_Mvdgroup_Br",
+            "versionName": "Brasil 1",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "Holidays_Mvdgroup",
+                    "subscriberPackageVersionId": "04t8c0000012e0yAAA"
+                }
+            ]
+        },
+        {
+            "path": "patterns",
+            "default": false
+        }
+    ],
+    "namespace": "mvdcomgroup",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "53.0",
+    "packageAliases": {
+        "Holidays_Mvdgroup": "0Ho8c00000000T8CAI",
+        "Holidays_Mvdgroup_Uy": "0Ho8c00000000XpCAI",
+        "Holidays_Mvdgroup_Arg": "0Ho8c00000000Y4CAI",
+        "Holidays_Mvdgroup@1.0.0-1": "04t8c0000012cjnAAA",
+        "Holidays_Mvdgroup_Uy@1.0.0-1": "04t8c0000012cjsAAA",
+        "Holidays_Mvdgroup_Uy@1.0.0-2": "04t8c0000012cjxAAA",
+        "Holidays_Mvdgroup@1.0.0-2": "04t8c0000012e0yAAA",
+        "Holidays_Mvdgroup_Uy@1.0.0-3": "04t8c0000012e13AAA",
+        "Holidays_Mvdgroup_Arg@1.0.0-1": "04t8c0000012e5GAAQ",
+        "Holidays_Mvdgroup_Uy@1.0.0-4": "04t8c0000012e5LAAQ",
+        "Holidays_Mvdgroup_Br": "0Ho8c00000000Y9CAI",
+        "Holidays_Mvdgroup_Br@1.0.0-1": "04t8c0000012e5QAAQ",
+        "Holidays_Mvdgroup_Br@1.0.0-2": "04t8c0000012e5VAAQ"
+    }
+}

@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-panel slds-grid slds-wrap ">
+        <div class="slds-text-heading_large slds-size_1-of-1 rowbigheight">Holidays Bonus Tool</div>
+        <template for:each={cts} for:item="ct">
+            <div class="slds-col slds-size_1-of-12 slds-text-align_center" key={ct.id}>
+                <lightning-input type="checkbox" data-id={ct.id} checked={ct.selected} onchange={selectCt}></lightning-input>
+            </div>
+            <div class="slds-col slds-size_5-of-12" key={ct.id}>
+                {ct.name}
+            </div>
+            <div class="slds-col slds-size_6-of-12" key={ct.id}>
+                {ct.country}
+            </div>
+        </template>
+        <div class="slds-col slds-size_12-of-12 rowbigheight">&nbsp;</div>
+        <div class="slds-col slds-size_12-of-12 slds-text-align_right">
+            <lightning-button disabled={disableButton} variant="brand" 
+            label="Calculate Bonus" title="Calculate Bonus" onclick={handleClick} 
+            class="slds-m-left_x-small slds-p-right_large slds-p-bottom_large">
+
+            </lightning-button>
+        </div>
+        <div class="slds-col slds-size_12-of-12 rowbigheight">&nbsp;</div>
+        <div class="slds-col slds-size_12-of-12 rowbigheight">
+            <div class="slds-text-heading_small slds-p-left_large">{bonusInfo}</div>
+        </div>
+    </div>
+</template>
