@@ -9,4 +9,5 @@ El video de la presentacion esta en el canal de youtube
 https://www.youtube.com/watch?v=Agnt8FcFi0Y&ab_channel=UYSDUG
 
 https://www.linkedin.com/in/nicol%C3%A1s-da-silva-ramia-8a8321a0/
+
 https://www.linkedin.com/in/federicogiust/
